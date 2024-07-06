@@ -1,0 +1,36 @@
+ <div class="why__image">
+        <img src="Assets/female docto.png" alt="why choose us" />
+      </div>
+
+<div class="why__content">
+        <h2 class="section__header">Why Choose Us</h2>
+        <p>
+          With a steadfast commitment to your well-being, our team of highly
+          trained healthcare professionals ensures that you receive nothing
+          short of exceptional patient experiences.
+        </p>
+        <div class="why__grid">
+          <span><i class="ri-hand-heart-line"></i></span>
+          <div>
+            <h4>Intensive Care</h4>
+            <p>
+              Our Intensive Care Unit is equipped with advanced technology and
+              staffed by team of professionals
+            </p>
+          </div>
+          <span><i class="ri-truck-line"></i></span>
+          <div>
+            <h4>Free Ambulance Car</h4>
+            <p>
+              A compassionate initiative to prioritize your health and
+              well-being without any financial burden.
+            </p>
+          </div>
+          <span><i class="ri-hospital-line"></i></span>
+          <div>
+            <h4>Medical and Surgical</h4>
+            <p>
+              Our Medical and Surgical services offer advanced healthcare
+              solutions to address medical needs.
+            </p>
+          </div>
