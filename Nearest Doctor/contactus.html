@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest Doctor</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="icon" href="img/ddnd logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <nav>
+        
+            <img src="ddnd logo.png" alt="" class="logo1">
+        
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Services</li></a>
+                <a href=""><li>Pricing</li></a>
+                <a href=""><li>Contact us</li></a>
+            </ul>
+
+            <button class="login-button">Login</button>
+            <button class="register-button">Register</button>
+
+    </nav>
+    <div class="About_container">
+        <div class="About">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+<section class="contact-section">
+    <div class="contact-wrapper">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us any time</p>
+            <form>
+                <input type="text" placeholder="Full name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Info Section -->
+        <div class="info-section">
+            <h3>Info</h3>
+            <p><i class="fa fa-envelope"></i> DDTECH@gmail.com</p>
+            <p><i class="fa fa-phone"></i> 08067564324</p>
+            <p><i class="fa fa-map-marker"></i> D deolu estate</p>
+            <p><i class="fa fa-clock-o"></i> 8:00am - 5:00pm</p>
+        </div>
+    </div>
+</section>
+
+<div class="faq-container">
+    <h4 class="faq-title">FAQ</h4>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            What kind of doctors are available on the platform?
+            <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>We have a variety of specialists available, including general practitioners, dermatologists, pediatricians, and more.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            How does the consultation process work?
+            <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>You can schedule an appointment, have a video or chat consultation, and receive a treatment plan from your doctor.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            Is my health information secure?
+            <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Your data is protected using state-of-the-art encryption and is never shared without your consent.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            Can I get a prescription through the platform?
+            <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, our doctors can issue prescriptions for medications when appropriate.</p>
+        </div>
+    </div>
+
+    <div class="faq-item open">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            What happens if I need follow-up care?
+            <span class="faq-icon">×</span>
+        </div>
+        <div class="faq-answer">
+            <p>You can easily schedule follow-up consultations with the same doctor <br>or choose a new one. Your medical history and previous consultations <br>are stored in your personal health dashboard for easy reference.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            Are there doctors available 24/7?
+            <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, our platform provides 24/7 access to medical professionals for urgent care needs.</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <img src="ddnd logo.png" alt="D-Degree Logo" class="footer-logo">
+            <p class="footer-description">
+                At D-Degree, we connect patients with <br>certified healthcare professionals <br>across various fields. Our goal is to <br>provide accessible, affordable, and <br>quality medical care through a <br>seamless digital experience.
+            </p>
+            <div class="social-icons">
+                <a href="#"><img src="logos_facebook.png" alt="Facebook" class="social-icon"></a>
+                <a href="#"><img src="Group.png" alt="Instagram" class="social-icon"></a>
+                <a href="#"><img src="Xlogo.png" alt="Twitter" class="social-icon"></a>
+            </div>
+        </div>
+
+<div class="footer-section">
+    <h6>Feature</h6>
+    <ul>
+        <li>Access to Certified Specialists</li>
+        <li>24/7 Availability</li>
+        <li>Secure Online Consultations</li>
+        <li>Easy Appointment Booking</li>
+        <li>Multi-Device Compatibility</li>
+        <li>Personalized Health Records</li>
+        <li>Global Coverage</li>
+        <li>Prescription Services</li>
+        <li>Flexible Subscription Plans</li>
+        <li>Follow-Up Consultations</li>
+    </ul>
+</div>
+
+<div class="footer-section">
+    <h6>Company</h6>
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

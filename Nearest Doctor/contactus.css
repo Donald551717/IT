@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 1px 2px rgba(143, 143, 143, 0.3); 
+    place-items: center;
+}
+
+.logo1{
+    width: 95px;
+    margin-left: 77px;
+}
+
+nav ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-button{
+    background-color: rgb(253, 253, 253); 
+    border: rgb(175, 175, 175) solid 1.5px;
+    color: rgb(0, 0, 0);                           
+    width: 100px;
+    height: 44px;
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 16px;          
+    margin-right: 20px;          
+    cursor: pointer;           
+    border-radius: 10px; 
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
+}
+
+.login-button:hover{
+    background-color: #f04a45;
+    color: white;
+}
+
+.register-button{
+    background-color: #E70A02; 
+    border: none;
+    color: white;                           
+    width: 100px;
+    height: 44px;
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 16px;          
+    margin-right: 75px;          
+    cursor: pointer;           
+    border-radius: 10px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+.register-button:hover{
+    background-color: rgb(255, 255, 255);
+    border: rgb(175, 175, 175) solid 1.5px;
+    color: rgb(0, 0, 0); 
+}
+
+.About_container{
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(238, 80, 80, 0.555)
+      ),
+      url("Aboutimage.png");
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:  #F5F5F5;
+    padding: 50px 0;
+    gap: 1.5rem;
+}
+
+.contact-wrapper > * {
+    flex: 1;
+}
+
+.contact-form, .info-section {
+    /* width: 48%; */
+    padding: 30px;
+    /* flex: 1; */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333; /* Darker grey text */
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+    color: #999; /* Lighter grey placeholder text */
+}
+
+.contact-form form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-content: flex-end;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #333; /* Darker grey on hover */
+}
+
+.info-section {
+    background-color: #e30613; /* Red background */
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 30px;
+}
+
+.info-section h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.info-section i {
+    margin-right: 10px;
+    font-size: 18px; /* Increase icon size */
+}
+
+/* styles.css */
+
+.faq-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.faq-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space below the title */
+    position: relative; /* Positioning for the bottom border */
+}
+
+.faq-title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Positioning the border directly below the title */
+    left: 0; /* Aligning the border to the left */
+    width: 50px; /* Length of the bottom border under the title */
+    border-bottom: 2px solid #000; /* Thickness and color of the bottom border */
+}
+
+.faq-item {
+    padding: 15px 0; /* Space above and below each FAQ item */
+}
+
+.faq-question {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    padding-right: 10px; /* Optional: Adds space to the right of the text */
+}
+
+.faq-answer {
+    display: none; /* Hidden by default */
+    padding-top: 10px; /* Space above the answer text */
+    color: #666; /* Color of the answer text */
+    font-size: 16px; /* Font size for the answer */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.faq-item.open .faq-answer {
+    display: block; /* Show the answer when open */
+}
+
+.faq-icon {
+    font-size: 22px; /* Size of the icon */
+    font-weight: bold; /* Bold icon */
+    color: red; /* Icon color */
+    transition: transform 0.2s; /* Transition effect */
+    margin-left: 105px; /* Adjust this value to increase spacing between text and icon */
+}
+
+
+footer {
+    background-color: #000; 
+    padding: 40px; 
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.footer-section {
+    width: 300px;
+}
+
+.footer-section h6 {
+    font-size: 30px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 17px;
+    line-height: 25.5px; 
+}
+
+.footer-section ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-section ul li {
+    margin-bottom: 8px; 
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 80px;
+    height: 76px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    width: 286px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    margin-right: 10px;
+}
